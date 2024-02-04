@@ -62,15 +62,19 @@ h1{
 .content-left{
     margin-top: 30vh; 
     margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-cta{
     background-color: white;
     border: none;
-    padding: 10px;
-    margin-left: 17rem;
+    padding: 13px; /*TRBL*/
+    margin-right: 17rem;
     cursor: pointer;
     border-radius: 1rem;
+    box-sizing: border-box;
+    width: max-content;
 }
 
 .trainers{
@@ -146,8 +150,6 @@ align-items: center;
         }
     }
 }
-
-
 
 .footer{
     margin: 2rem;
